@@ -7,19 +7,10 @@
 
 using namespace std;
 
-typedef struct{
-    int key, data;
-} heapNode ;
-
 struct huffman{
     double freq;
     char c;
     huffman* left, *right;
-};
-
-struct huffmanCodes{
-    char c;
-    string str;
 };
 
 class MinHeap{
